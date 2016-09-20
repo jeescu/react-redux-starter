@@ -4,13 +4,13 @@ Basic dependencies to get started with your react project using [Redux](http://r
 
 ###Tools Used###
 
-1. Webpack
-2. Mocha
-3. Babel
+* [Webpack](https://webpack.github.io/)
+* [Mocha](https://mochajs.org/)
+* [Babel](https://babeljs.io/)
 
 ###Getting Started###
 
-Checkout this repo, install dependencies, then run with the following:
+Checkout this repo, install dependencies, then run the following:
 
 ```
 	> git clone git@github.com:jeescu/react-redux-starter.git
