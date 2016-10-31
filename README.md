@@ -46,7 +46,7 @@ Test libraries
 	> npm test
 	```
 
-### Deployment
+### Production
 
 1. Bundle the app using webpack
 
