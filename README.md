@@ -25,24 +25,26 @@ Test libraries
 
 1. Checkout this repo, install dependencies, then run the following:
 
-```
-	> git clone git@github.com:jeescu/react-redux-starter.git
-	> cd react-redux-starter
-	> npm install
-```
+	```
+		> git clone git@github.com:jeescu/react-redux-starter.git
+		> cd react-redux-starter
+		> npm install
+	```
 
 2. Start coding!
 
 ### Development
 
 1. Start Development
-```
-	> npm start
-```
+
+	```
+		> npm start
+	```
 2. Run Test
-```
-	> npm test
-```
+
+	```
+		> npm test
+	```
 
 ### Deployment
 
@@ -50,12 +52,12 @@ Run using node
 
 1. Bundle the app using webpack
 
-```
-	> npm run build
-```
+	```
+		> npm run build
+	```
 
 2. Run your production server
 
-```
-	> npm run start:dist
-```
+	```
+		> npm run start:dist
+	```
