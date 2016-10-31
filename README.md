@@ -23,7 +23,7 @@ Test libraries
 
 ### Getting Started
 
-1. Checkout this repo, install dependencies, then run the following:
+1. Checkout this repo, install dependencies. Run the following:
 
 	```
 	> git clone git@github.com:jeescu/react-redux-starter.git
