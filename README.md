@@ -51,11 +51,11 @@ Run using node
 1. Bundle the app using webpack
 
 ```
-	> npm build
+	> npm run build
 ```
 
 2. Run your production server
 
 ```
-	> npm start:dist
+	> npm run start:dist
 ```
