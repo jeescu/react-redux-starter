@@ -1,16 +1,29 @@
 # React Redux Starter
 
-Basic dependencies to get started with your react project using [Redux](http://redux.js.org/)
+Basic dependencies to get started with your React project using [Redux](http://redux.js.org/)
 
-###Tools Used###
+### Tools / Dependencies
 
+Check [package.json](https://github.com/jeescu/react-redux-starter/blob/master/package.json)
+
+Development tools
 * [Webpack](https://webpack.github.io/)
-* [Mocha](https://mochajs.org/)
 * [Babel](https://babeljs.io/)
+* [Eslint](http://eslint.org/docs/user-guide/getting-started)
 
-###Getting Started###
+Helper tools
+* [Immutable](https://github.com/facebook/immutable-js)
+* [Lodash](https://github.com/lodash/lodash)
 
-Checkout this repo, install dependencies, then run the following:
+Test libraries
+* [Mocha](https://mochajs.org/)
+* [Expect](https://github.com/mjackson/expect)
+* [Enzyme](https://github.com/airbnb/enzyme)
+
+
+### Getting Started
+
+1. Checkout this repo, install dependencies, then run the following:
 
 ```
 	> git clone git@github.com:jeescu/react-redux-starter.git
@@ -18,26 +31,31 @@ Checkout this repo, install dependencies, then run the following:
 	> npm install
 ```
 
-###Local Development###
+2. Start coding!
 
-1.	Run using `webpack-dev-server`
+### Development
 
+1. Start Development
 ```
 	> npm start
 ```
+2. Run Test
+```
+	> npm test
+```
 
-###Deployment build###
+### Deployment
 
 Run using node
 
-1. Bundle the app for production using webpack
+1. Bundle the app using webpack
 
 ```
-	> webpack -p
+	> npm build
 ```
 
-2. Run your server
+2. Run your production server
 
 ```
-	> node server.js
+	> npm start:dist
 ```
