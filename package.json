@@ -14,8 +14,8 @@
     "remove-dist": "rm -r dist/ && mkdir dist",
     "prebuild": "babel-node tools/buildMessage.js && cp src/index.html dist/index.html",
     "build": "webpack -p --define process.env.NODE_ENV='\"production\"' --progress --colors",
-    "start:prod": "NODE_ENV=production babel-node tools/prodServer.js",
-    "build-start:prod": "build && start:prod"
+    "start:dist": "NODE_ENV=production babel-node tools/prodServer.js",
+    "build:start": "build && start:prod"
   },
   "repository": {
     "type": "git",
@@ -44,6 +44,7 @@
     "jquery": "2.2.1",
     "jsdom": "8.1.0",
     "mocha": "2.4.5",
+    "npm-run-all": "^3.1.1",
     "react-addons-test-utils": "0.14.7",
     "redux-immutable-state-invariant": "^1.2.4",
     "style-loader": "0.13.1",

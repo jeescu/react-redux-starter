@@ -1,7 +1,4 @@
-/node_modules
-bundle.js
+node_modules
 npm-debug.log
-
-# IntelliJ
-*.iml
-/.idea
+npm-debug.log.*
+/dist/
