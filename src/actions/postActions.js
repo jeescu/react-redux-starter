@@ -1,4 +1,4 @@
-export const FETCH_POSTS = 'FETCH_POSTS';
+import * as actionTypes from './actionTypes';
 
 const dummyPosts = [
   { id: 1, name: 'post1' },
@@ -7,7 +7,7 @@ const dummyPosts = [
 
 export function fetchPosts() {
   return {
-    type: FETCH_POSTS,
+    type: actionTypes.FETCH_POSTS,
     payload: dummyPosts,
   };
 }
