@@ -20,11 +20,11 @@ Test libraries
 * [Expect](https://github.com/mjackson/expect)
 * [Enzyme](https://github.com/airbnb/enzyme)
 
-## Getting Started
+### Getting Started
 
 Create a new project based on `react-redux-starter`.
 
-### Install from source
+#### Install from source
 
 1. First, clone this project:
 
@@ -40,7 +40,7 @@ Create a new project based on `react-redux-starter`.
 	> npm start                     # Compile and launch
 	```
 
-### Development
+#### Development
 
 1. Start development
 
@@ -53,7 +53,7 @@ Create a new project based on `react-redux-starter`.
 	> npm test
 	```
 
-### Deployment
+#### Deployment
 
 1. Bundle the app using webpack
 
@@ -67,10 +67,9 @@ Create a new project based on `react-redux-starter`.
 	> npm run start:dist
 	```
 	
-## Application Structure
+### Application Structure
 
 ```
-.
 ├── build                    # All webpack build configuration
 │   └── webpack              # Configuration files for environments
 ├── config                   # Project configuration settings
@@ -94,3 +93,7 @@ Create a new project based on `react-redux-starter`.
 ```
 
 ## Learning Resources
+
+* (Getting Started with Redux)[https://egghead.io/courses/getting-started-with-redux] by (Dan Abramov)[https://github.com/gaearon]
+* (Modern React Redux)[https://www.udemy.com/react-redux/learn/v4/overview] in (Udemy)[https://www.udemy.com]
+* (Redux Documentation)[http://redux.js.org/]
