@@ -81,7 +81,7 @@ Create a new project based on `react-redux-starter`.
 │   ├── main.js              # Application entry point bootstrap and rendering
 │   ├── components           # All Reusable Presentational Components
 │   ├── containers           # All Container Components
-|   ├── reducers 	     # Pieces of state for store
+|   ├── reducers             # Pieces of state for store
 │   │   └── index.js         # Combined reducers as a single state
 │   ├── routes               # Application routing
 │   │   └── index.js         # Routes entry point
@@ -94,6 +94,6 @@ Create a new project based on `react-redux-starter`.
 
 ## Learning Resources
 
-* [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux) by [Dan Abramov}(https://github.com/gaearon)
-* [Modern React Redux](https://www.udemy.com/react-redux/learn/v4/overview] in (Udemy)[https://www.udemy.com)
+* [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux) by [Dan Abramov](https://github.com/gaearon)
+* [Modern React Redux](https://www.udemy.com/react-redux/learn/v4/overview] in [Udemy](https://www.udemy.com)
 * [Redux Documentation](http://redux.js.org/)
