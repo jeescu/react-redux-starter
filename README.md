@@ -94,6 +94,6 @@ Create a new project based on `react-redux-starter`.
 
 ## Learning Resources
 
-* (Getting Started with Redux)[https://egghead.io/courses/getting-started-with-redux] by (Dan Abramov)[https://github.com/gaearon]
-* (Modern React Redux)[https://www.udemy.com/react-redux/learn/v4/overview] in (Udemy)[https://www.udemy.com]
-* (Redux Documentation)[http://redux.js.org/]
+* [Getting Started with Redux](https://egghead.io/courses/getting-started-with-redux) by [Dan Abramov}(https://github.com/gaearon)
+* [Modern React Redux](https://www.udemy.com/react-redux/learn/v4/overview] in (Udemy)[https://www.udemy.com)
+* [Redux Documentation](http://redux.js.org/)
