@@ -20,18 +20,25 @@ Test libraries
 * [Expect](https://github.com/mjackson/expect)
 * [Enzyme](https://github.com/airbnb/enzyme)
 
+## Getting Started
 
-### Getting Started
+Create a new project based on `react-redux-starter`.
 
-1. Checkout this repo, install dependencies. Run the following:
+### Install from source
+
+1. First, clone this project:
 
 	```
 	> git clone git@github.com:jeescu/react-redux-starter.git
-	> cd react-redux-starter
-	> npm install
+	> cd <my-project-name>
 	```
 
-2. Start coding!
+2. Install dependencies and start coding!
+
+	```
+	> npm install                   # Install project dependencies
+	> npm start                     # Compile and launch
+	```
 
 ### Development
 
@@ -46,7 +53,7 @@ Test libraries
 	> npm test
 	```
 
-### Production
+### Deployment
 
 1. Bundle the app using webpack
 
@@ -59,3 +66,31 @@ Test libraries
 	```
 	> npm run start:dist
 	```
+	
+## Application Structure
+
+```
+.
+├── build                    # All webpack build configuration
+│   └── webpack              # Configuration files for environments
+├── config                   # Project configuration settings
+├── dist                     # Application build for production
+├── server                   # Server side rendering express application
+│   └── main.js              # Server environment-specific application entry point
+├── src                      # Application source code
+│   ├── index.html           # Main HTML page container for app
+│   ├── main.js              # Application entry point bootstrap and rendering
+│   ├── components           # All Reusable Presentational Components
+│   ├── containers           # All Container Components
+|   ├── reducers 	     # Pieces of state for store
+│   │   └── index.js         # Combined reducers as a single state
+│   ├── routes               # Application routing
+│   │   └── index.js         # Routes entry point
+│   ├── static               # Static assets (publicly viewable by url)
+│   ├── store                # Redux state container with environment-specific configurations.
+│   │   ├── createStore.js   # Create and instrument redux store
+│   └── styles               # Global styles
+└── tests                    # Unit tests
+```
+
+## Learning Resources
