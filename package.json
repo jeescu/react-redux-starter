@@ -11,7 +11,7 @@
     "test:watch": "npm run test -- --watch",
     "lint": "node_modules/.bin/esw webpack.config.* src tools test",
     "lint:watch": "npm run lint -- --watch",
-    "coverage": "babel-node ./node_modules/istanbul/lib/cli.js cover _mocha -- --compilers js:babel-core/register --require ./tools/testSetup.js --report lcovonly src/**/*.spec.js",
+    "coveralls": "babel-node ./node_modules/istanbul/lib/cli.js cover _mocha -- --compilers js:babel-core/register --require ./tools/testSetup.js --report lcovonly src/**/*.spec.js && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js && rm -rf ./coverage",
     "clean-dist": "rm -rf dist && mkdir -p dist",
     "prebuild": "npm run clean-dist && babel-node tools/buildMessage.js && cp src/index.html dist/index.html",
     "build": "webpack -p --define process.env.NODE_ENV='\"production\"' --progress --colors",
