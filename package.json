@@ -11,8 +11,8 @@
     "test:watch": "npm run test -- --watch",
     "lint": "node_modules/.bin/esw webpack.config.* src tools test",
     "lint:watch": "npm run lint -- --watch",
-    "remove-dist": "rm -r dist/ && mkdir dist",
-    "prebuild": "babel-node tools/buildMessage.js && cp src/index.html dist/index.html",
+    "clean-dist": "rm -rf dist && mkdir -p dist",
+    "prebuild": "npm run clean-dist && babel-node tools/buildMessage.js && cp src/index.html dist/index.html",
     "build": "webpack -p --define process.env.NODE_ENV='\"production\"' --progress --colors",
     "start:dist": "NODE_ENV=production babel-node tools/prodServer.js",
     "build:start": "build && start:prod"
