@@ -1,7 +1,7 @@
 # React + Redux starter
 
-[![Build Status](https://travis-ci.org/jeescu/react-redux-starter.svg?branch=master,style=flat-square)](https://travis-ci.org/jeescu/react-redux-starter)
-[![Coverage Status](https://coveralls.io/repos/github/jeescu/react-redux-starter/badge.svg?branch=master,style=flat-square)](https://coveralls.io/github/jeescu/react-redux-starter?branch=master)
+[![Build Status](https://travis-ci.org/jeescu/react-redux-starter.svg?branch=master&style=flat-square)](https://travis-ci.org/jeescu/react-redux-starter)
+[![Coverage Status](https://coveralls.io/repos/github/jeescu/react-redux-starter/badge.svg?branch=master&style=flat-square)](https://coveralls.io/github/jeescu/react-redux-starter?branch=master)
 
 Basic dependencies to get started with your React project using [Redux](http://redux.js.org/)
 
