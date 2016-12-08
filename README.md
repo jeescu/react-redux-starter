@@ -1,6 +1,6 @@
 # React + Redux starter
 
-[![build status][build-badge]][build-href]
+[![Build Status](https://travis-ci.org/jeescu/react-redux-starter.svg?branch=master)](https://travis-ci.org/jeescu/react-redux-starter)
 
 Basic dependencies to get started with your React project using [Redux](http://redux.js.org/)
 
