@@ -1,5 +1,7 @@
 # React + Redux starter
 
+[![build status][build-badge]][build-href]
+
 Basic dependencies to get started with your React project using [Redux](http://redux.js.org/)
 
 ### Tools / Dependencies
