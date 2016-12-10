@@ -48,6 +48,7 @@
     "react-addons-test-utils": "0.14.7",
     "redux-immutable-state-invariant": "1.2.3",
     "redux-logger": "2.6.1",
+    "sinon": "1.17.6",
     "style-loader": "0.13.1",
     "webpack": "1.12.9",
     "webpack-dev-server": "1.14.0",
