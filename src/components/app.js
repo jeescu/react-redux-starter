@@ -1,17 +1,14 @@
-import React, { Component } from 'react';
-import Posts from './posts';
+import React, { PropTypes } from 'react';
 
-export default class App extends Component {
-  componentWillDidMount() {
-    // console.log('did mount');
-  }
+const App = ({ children }) => (
+  <div>
+    <h3>React Redux Starter</h3>
+    {children}
+  </div>
+);
 
-  render() {
-    return (
-      <div>React Redux Starter
+App.propTypes = {
+  children: PropTypes.object,
+};
 
-        <Posts />
-      </div>
-    );
-  }
-}
+export default App;
