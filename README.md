@@ -2,6 +2,7 @@
 
 [![Build Status](https://travis-ci.org/jeescu/react-redux-starter.svg?branch=master)](https://travis-ci.org/jeescu/react-redux-starter)
 [![Coverage Status](https://coveralls.io/repos/github/jeescu/react-redux-starter/badge.svg?branch=master)](https://coveralls.io/github/jeescu/react-redux-starter?branch=master)
+[![bitHound Overall Score](https://www.bithound.io/github/jeescu/react-redux-starter/badges/score.svg)](https://www.bithound.io/github/jeescu/react-redux-starter)
 
 Basic dependencies to get started with your React project using [Redux](http://redux.js.org/)
 
