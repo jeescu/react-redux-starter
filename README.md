@@ -26,10 +26,6 @@ Test libraries
 * [Enzyme](https://github.com/airbnb/enzyme)
 * [Sinon](http://sinonjs.org/)
 
-Additional tools
-* [Travis CI](https://travis-ci.org/)
-* [Coveralls](https://coveralls.io)
-
 ### Getting Started
 
 Create a new project based on `react-redux-starter`.
