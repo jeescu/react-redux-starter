@@ -7,7 +7,7 @@
     "prestart": "babel-node tools/startMessage.js",
     "start": "npm-run-all --parallel start:dev lint:watch test:watch",
     "start:dev": "node_modules/.bin/babel-node tools/devServer.js",
-    "test": "mocha --compilers js:babel-core/register --require ./tools/testSetup.js --recursive tests/",
+    "test": "mocha --compilers js:babel-core/register --require ./tools/testSetup.js --recursive 'src/**/*.spec.js'",
     "test:watch": "npm run test -- --watch",
     "lint": "node_modules/.bin/esw webpack.config.* src tools test",
     "lint:watch": "npm run lint -- --watch",
